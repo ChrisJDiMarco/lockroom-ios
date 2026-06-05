@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0334270BC185F1368CFED1DB /* DevelopedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADAD65A6FC0E9514BD7CC98 /* DevelopedFrame.swift */; };
+		0CFF750B831E61C061CDCFD0 /* FullscreenImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAB1406B8472B15915C363 /* FullscreenImageView.swift */; };
+		21A6AF693B7D3427E849D89B /* LockroomPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBDE879F1EA22E4184777A /* LockroomPalette.swift */; };
+		21A98BC3EEA0CBF54D4C1E44 /* DevelopmentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03D82FD937E90C6EBAD1A5 /* DevelopmentStore.swift */; };
+		2C40B2F13413EF81E7427535 /* DevelopLatestPhotoIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1007BFF9DD7F5967D062750 /* DevelopLatestPhotoIntent.swift */; };
+		3AB44371E6C7D5E8DF7B133D /* ImageDevelopmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C194379A2BD3870DD3890FC2 /* ImageDevelopmentService.swift */; };
+		53B5DF21E43E2CA59475443D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EC796CB96D758F840F9A24 /* Foundation.framework */; };
+		60037BC1AB9AB3E9E36871C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0BEC9E53186E218CA4D4B4 /* Assets.xcassets */; };
+		6068CF49EB2768AFB56CCE15 /* LockroomRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E20ECC09741D8939D6A408 /* LockroomRootView.swift */; };
+		631E8EFF743646BBFC5097DA /* MultipartFormDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ED8908EEA877704AAB8B0 /* MultipartFormDataBuilder.swift */; };
+		638FDD31768C6BEFF85F709F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EC796CB96D758F840F9A24 /* Foundation.framework */; };
+		89B263BE0203AA63BDCFD123 /* FrameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04C70C202B58716D2E8A83 /* FrameDetailView.swift */; };
+		8E06A97A839DB573B4EA6E39 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B189CCADEBAE3DC3257B57A /* NotificationService.swift */; };
+		B5CAF175CF47CF3EF9507328 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7006661E3753DE97E36BCD2E /* KeychainStore.swift */; };
+		C049DD24842928AAEBC1B92D /* FramePresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDD7E2F52BFA7DB1422CA9 /* FramePresentationTests.swift */; };
+		C53DB1F74BE8AB55554BE572 /* DevelopmentPromptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792DE76905FC57C6E68FBEE1 /* DevelopmentPromptTests.swift */; };
+		C73F1657BC34E3F871E6260E /* OpenAIImageEditClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD53FEFA72F02B3530A7A39B /* OpenAIImageEditClient.swift */; };
+		D2303797559FB6D3EF20755A /* DevelopmentPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482CDEC49693B0C2A208797 /* DevelopmentPrompt.swift */; };
+		DBD6BBB3DBD518A7243E727E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DB2A20187176A98B6D1ACFBA /* PrivacyInfo.xcprivacy */; };
+		DD88AB262CE989FC500D4FBD /* ImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE8AC99CD0830BD8DDC141 /* ImageViews.swift */; };
+		E20A15064A3372C3E010324F /* LockroomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E536CFAC05CA6F0370D073 /* LockroomApp.swift */; };
+		E68069D7C54ABE039F045CAE /* FrameArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4882C3AE4AF078C8363D2D /* FrameArchive.swift */; };
+		F669884C23643EA41624082D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C045E839E33F4D217B5BD /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AC7B15E91C323E98EB0068A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B36557F38C2324A419B7E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43DD978C4D9D611EB3BF92D0;
+			remoteInfo = Lockroom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16DAB1406B8472B15915C363 /* FullscreenImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullscreenImageView.swift; path = Sources/Views/FullscreenImageView.swift; sourceTree = "<group>"; };
+		1CFE8AC99CD0830BD8DDC141 /* ImageViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViews.swift; path = Sources/Views/ImageViews.swift; sourceTree = "<group>"; };
+		3CDBDE879F1EA22E4184777A /* LockroomPalette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockroomPalette.swift; path = Sources/Views/LockroomPalette.swift; sourceTree = "<group>"; };
+		51E20ECC09741D8939D6A408 /* LockroomRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockroomRootView.swift; path = Sources/Views/LockroomRootView.swift; sourceTree = "<group>"; };
+		5482CDEC49693B0C2A208797 /* DevelopmentPrompt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevelopmentPrompt.swift; path = Sources/Services/DevelopmentPrompt.swift; sourceTree = "<group>"; };
+		5B189CCADEBAE3DC3257B57A /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationService.swift; path = Sources/Services/NotificationService.swift; sourceTree = "<group>"; };
+		5C04C70C202B58716D2E8A83 /* FrameDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameDetailView.swift; path = Sources/Views/FrameDetailView.swift; sourceTree = "<group>"; };
+		6B9C045E839E33F4D217B5BD /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Sources/Views/SettingsView.swift; sourceTree = "<group>"; };
+		7006661E3753DE97E36BCD2E /* KeychainStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainStore.swift; path = Sources/Services/KeychainStore.swift; sourceTree = "<group>"; };
+		792DE76905FC57C6E68FBEE1 /* DevelopmentPromptTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevelopmentPromptTests.swift; path = ./DevelopmentPromptTests.swift; sourceTree = "<group>"; };
+		A30ED8908EEA877704AAB8B0 /* MultipartFormDataBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormDataBuilder.swift; path = Sources/Services/MultipartFormDataBuilder.swift; sourceTree = "<group>"; };
+		B0E536CFAC05CA6F0370D073 /* LockroomApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockroomApp.swift; path = Sources/App/LockroomApp.swift; sourceTree = "<group>"; };
+		C194379A2BD3870DD3890FC2 /* ImageDevelopmentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDevelopmentService.swift; path = Sources/Services/ImageDevelopmentService.swift; sourceTree = "<group>"; };
+		C7EC796CB96D758F840F9A24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF03D82FD937E90C6EBAD1A5 /* DevelopmentStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevelopmentStore.swift; path = Sources/Services/DevelopmentStore.swift; sourceTree = "<group>"; };
+		D7BDD7E2F52BFA7DB1422CA9 /* FramePresentationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FramePresentationTests.swift; path = ./FramePresentationTests.swift; sourceTree = "<group>"; };
+		DB2A20187176A98B6D1ACFBA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DD53FEFA72F02B3530A7A39B /* OpenAIImageEditClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIImageEditClient.swift; path = Sources/Services/OpenAIImageEditClient.swift; sourceTree = "<group>"; };
+		DE4882C3AE4AF078C8363D2D /* FrameArchive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameArchive.swift; path = Sources/Services/FrameArchive.swift; sourceTree = "<group>"; };
+		DF844C397228E9345A82B45A /* Lockroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lockroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1007BFF9DD7F5967D062750 /* DevelopLatestPhotoIntent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevelopLatestPhotoIntent.swift; path = Sources/Intents/DevelopLatestPhotoIntent.swift; sourceTree = "<group>"; };
+		EADAD65A6FC0E9514BD7CC98 /* DevelopedFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevelopedFrame.swift; path = Sources/Models/DevelopedFrame.swift; sourceTree = "<group>"; };
+		F7C9A110223B413976192A6E /* LockroomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockroomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0BEC9E53186E218CA4D4B4 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77321F36C77F3225F315D9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B5DF21E43E2CA59475443D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D555B0E772AA9A245D9D808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638FDD31768C6BEFF85F709F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215F389147D63078B9170F3D /* LockroomTests */ = {
+			isa = PBXGroup;
+			children = (
+				792DE76905FC57C6E68FBEE1 /* DevelopmentPromptTests.swift */,
+				D7BDD7E2F52BFA7DB1422CA9 /* FramePresentationTests.swift */,
+			);
+			name = LockroomTests;
+			path = LockroomTests;
+			sourceTree = "<group>";
+		};
+		59B808BD6402997DAAC807EB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC796CB96D758F840F9A24 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9653FBD9B03711BBE08DB680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59B808BD6402997DAAC807EB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3454AF80E03ECE26A236E9C /* Lockroom */ = {
+			isa = PBXGroup;
+			children = (
+				B0E536CFAC05CA6F0370D073 /* LockroomApp.swift */,
+				E1007BFF9DD7F5967D062750 /* DevelopLatestPhotoIntent.swift */,
+				EADAD65A6FC0E9514BD7CC98 /* DevelopedFrame.swift */,
+				5482CDEC49693B0C2A208797 /* DevelopmentPrompt.swift */,
+				CF03D82FD937E90C6EBAD1A5 /* DevelopmentStore.swift */,
+				DE4882C3AE4AF078C8363D2D /* FrameArchive.swift */,
+				C194379A2BD3870DD3890FC2 /* ImageDevelopmentService.swift */,
+				7006661E3753DE97E36BCD2E /* KeychainStore.swift */,
+				A30ED8908EEA877704AAB8B0 /* MultipartFormDataBuilder.swift */,
+				5B189CCADEBAE3DC3257B57A /* NotificationService.swift */,
+				DD53FEFA72F02B3530A7A39B /* OpenAIImageEditClient.swift */,
+				5C04C70C202B58716D2E8A83 /* FrameDetailView.swift */,
+				16DAB1406B8472B15915C363 /* FullscreenImageView.swift */,
+				1CFE8AC99CD0830BD8DDC141 /* ImageViews.swift */,
+				3CDBDE879F1EA22E4184777A /* LockroomPalette.swift */,
+				51E20ECC09741D8939D6A408 /* LockroomRootView.swift */,
+				6B9C045E839E33F4D217B5BD /* SettingsView.swift */,
+				FE0BEC9E53186E218CA4D4B4 /* Assets.xcassets */,
+				DB2A20187176A98B6D1ACFBA /* PrivacyInfo.xcprivacy */,
+			);
+			name = Lockroom;
+			path = Lockroom;
+			sourceTree = "<group>";
+		};
+		EA200C265E56DEF3DB603FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF844C397228E9345A82B45A /* Lockroom.app */,
+				F7C9A110223B413976192A6E /* LockroomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1341370DB8BFBF45A0C9C79 = {
+			isa = PBXGroup;
+			children = (
+				EA200C265E56DEF3DB603FE8 /* Products */,
+				9653FBD9B03711BBE08DB680 /* Frameworks */,
+				C3454AF80E03ECE26A236E9C /* Lockroom */,
+				215F389147D63078B9170F3D /* LockroomTests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43DD978C4D9D611EB3BF92D0 /* Lockroom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B107EED52D661722A8ECC7B /* Build configuration list for PBXNativeTarget "Lockroom" */;
+			buildPhases = (
+				151B008161C71F823039AF16 /* Sources */,
+				D555B0E772AA9A245D9D808D /* Frameworks */,
+				976D38CE07F9385ED05241CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lockroom;
+			productName = Lockroom;
+			productReference = DF844C397228E9345A82B45A /* Lockroom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A16946027874D095CEC4E755 /* LockroomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5125B142E4D14D394C76CE2 /* Build configuration list for PBXNativeTarget "LockroomTests" */;
+			buildPhases = (
+				CDE444DEA9176E9D99A3B6C2 /* Sources */,
+				77321F36C77F3225F315D9A5 /* Frameworks */,
+				5F215B0AC70D6BC4586A1083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457593E03F3F08DEC732773D /* PBXTargetDependency */,
+			);
+			name = LockroomTests;
+			productName = LockroomTests;
+			productReference = F7C9A110223B413976192A6E /* LockroomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B36557F38C2324A419B7E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4BF5149E0A6B799BF4AA3C36 /* Build configuration list for PBXProject "Lockroom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1341370DB8BFBF45A0C9C79;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EA200C265E56DEF3DB603FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43DD978C4D9D611EB3BF92D0 /* Lockroom */,
+				A16946027874D095CEC4E755 /* LockroomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F215B0AC70D6BC4586A1083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976D38CE07F9385ED05241CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60037BC1AB9AB3E9E36871C8 /* Assets.xcassets in Resources */,
+				DBD6BBB3DBD518A7243E727E /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151B008161C71F823039AF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20A15064A3372C3E010324F /* LockroomApp.swift in Sources */,
+				2C40B2F13413EF81E7427535 /* DevelopLatestPhotoIntent.swift in Sources */,
+				0334270BC185F1368CFED1DB /* DevelopedFrame.swift in Sources */,
+				D2303797559FB6D3EF20755A /* DevelopmentPrompt.swift in Sources */,
+				21A98BC3EEA0CBF54D4C1E44 /* DevelopmentStore.swift in Sources */,
+				E68069D7C54ABE039F045CAE /* FrameArchive.swift in Sources */,
+				3AB44371E6C7D5E8DF7B133D /* ImageDevelopmentService.swift in Sources */,
+				B5CAF175CF47CF3EF9507328 /* KeychainStore.swift in Sources */,
+				631E8EFF743646BBFC5097DA /* MultipartFormDataBuilder.swift in Sources */,
+				8E06A97A839DB573B4EA6E39 /* NotificationService.swift in Sources */,
+				C73F1657BC34E3F871E6260E /* OpenAIImageEditClient.swift in Sources */,
+				89B263BE0203AA63BDCFD123 /* FrameDetailView.swift in Sources */,
+				0CFF750B831E61C061CDCFD0 /* FullscreenImageView.swift in Sources */,
+				DD88AB262CE989FC500D4FBD /* ImageViews.swift in Sources */,
+				21A6AF693B7D3427E849D89B /* LockroomPalette.swift in Sources */,
+				6068CF49EB2768AFB56CCE15 /* LockroomRootView.swift in Sources */,
+				F669884C23643EA41624082D /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE444DEA9176E9D99A3B6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53DB1F74BE8AB55554BE572 /* DevelopmentPromptTests.swift in Sources */,
+				C049DD24842928AAEBC1B92D /* FramePresentationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457593E03F3F08DEC732773D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lockroom;
+			target = 43DD978C4D9D611EB3BF92D0 /* Lockroom */;
+			targetProxy = 5AC7B15E91C323E98EB0068A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0053AF0B6F58734C92155A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0343E150EDAED39F17DB360D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4X5MZ8MGH9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Lockroom;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photo-video";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Lockroom can save finished developed frames to your library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Lockroom reads the latest photo so your Camera-close automation can develop it.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.lockroom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528BAB92A902DC61DCF783AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F01AD4550CBF4B045D84AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.lockroom.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lockroom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lockroom";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D61C0CB743868FBCE8BAFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4X5MZ8MGH9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Lockroom;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photo-video";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Lockroom can save finished developed frames to your library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Lockroom reads the latest photo so your Camera-close automation can develop it.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.lockroom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C68CEC5A0FE4F104936E3E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarvis.lockroom.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lockroom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lockroom";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B107EED52D661722A8ECC7B /* Build configuration list for PBXNativeTarget "Lockroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0343E150EDAED39F17DB360D /* Release */,
+				8D61C0CB743868FBCE8BAFBF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF5149E0A6B799BF4AA3C36 /* Build configuration list for PBXProject "Lockroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BAB92A902DC61DCF783AF /* Debug */,
+				0053AF0B6F58734C92155A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5125B142E4D14D394C76CE2 /* Build configuration list for PBXNativeTarget "LockroomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F01AD4550CBF4B045D84AD4 /* Release */,
+				C68CEC5A0FE4F104936E3E16 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B36557F38C2324A419B7E41 /* Project object */;
+}

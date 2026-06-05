@@ -1,0 +1,11 @@
+build/
+DerivedData/
+Secrets.xcconfig
+.env
+.DS_Store
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.xcuserdatad/
+*.xccheckout
