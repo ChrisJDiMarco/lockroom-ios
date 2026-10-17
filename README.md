@@ -18,8 +18,6 @@ xcodebuild -project Lockroom.xcodeproj -scheme Lockroom -destination 'platform=i
 
 ## Local GPT testing
 
-Use a rotated OpenAI key. The key pasted into chat should be treated as exposed.
-
 For simulator-only testing, either:
 
 - Open Lockroom settings, paste the key, and tap `Save Key`.
